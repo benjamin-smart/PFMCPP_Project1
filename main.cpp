@@ -33,89 +33,114 @@ arm.rotateCounterClockwise(); //demonstrates CamelCase
 
 /*
  1)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:       boy
+ action 1:   the boy runs
+ action 2:   the boy says
+ action 3:   the boy dances
  */
-
+boy.run();
+boy.say();
+boy.dance();
 
 /*
  2)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:        guitar plectrum
+ action 1:    do a downstroke
+ action 2:    do an upstroke
+ action 3:    dive bomb
  */
+plectrum.downStroke();
+plectrum.upStroke  ();
+plectrum.diveBomb();
 
 /*
  3)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:        wavetable oscillator
+ action 1:    change wavetables
+ action 2:    get frequency
+ action 3:    set frequency
  */
-
+wavetableOscillator.setWavetable();
+wavetableOscillator.getFrequency();
+wavetableOscillator.setFrequency();
 
 /*
  4)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:       midi file
+ action 1:   move contents up one octave
+ action 2:   remove all black notes
+ action 3:   quantize
  */
+midiFile.adjustByOctave();
+midiFile.removeNotes();
+midiFile.quantizeToCurrentGrid();
 
 /*
  5)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:       audio file
+ action 1:   fade in
+ action 2:   normalize
+ action 3:   gate below -12db
  */
-
+audioFile.linearFadeIn();
+audioFile.normalizeToDecibelValue();
+audioFile.removeBelowDecibelValue();
 
 /*
  6)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:      teacher
+ action 1:  correct homework
+ action 2:  give grades
+ action 3:  inspire success
  */
+teacher.correctHomework();
+teacher.applyGrade();
+teacher.sayLecture();
 
 /*
  7)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:      student
+ action 1:  do homework
+ action 2:  get grades
+ action 3:  make synths
  */
-
+student.doHomework();
+student.makeCorrectDecisions = true;
+student.makeVST();
 
 /*
  8)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:       dog
+ action 1:   eat food
+ action 2:   poop on tree
+ action 3:   bark at the neighbor
  */
+dog->eat();
+dog->poopImmediately();
+dog->declare();
 
 /*
  9)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:      computer mouse
+ action 1:  I clicked the left mouse button 
+ action 2:  I moved the scroll wheel up
+ action 3:  get current position
  */
-
+computerMouse.onLeftButtonClick = [this] { mouseLeftButtonClicked(); };
+computerMouse.onScrollWheelUp   = [this] { mouseScrollWheelUp();     };
+computerMouse.getCurrentMousePosition();
 
 /*
  10)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:       musical scale
+ action 1:   extract diatonic triads
+ action 2:   change root note to Ab
+ action 3:   change to the third mode of the melodic minor
  */
 
+MusicalScales::SevenNoteScales::ExtractDiatonicTriads();
+currentMusicalScale.changeRoot(); // 0-11 indices of 12 notes
+currentMusicalScale.setScaleAndMode();
 
 #endif
 
